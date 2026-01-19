@@ -1,0 +1,25 @@
+{
+  "name": "webapp-express",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/wissembrahem/webapp-express#readme",
+  "bugs": {
+    "url": "https://github.com/wissembrahem/webapp-express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wissembrahem/webapp-express.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js",
+    "watch": "node --env-file=.env --watch app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.16.1"
+  }
+}
